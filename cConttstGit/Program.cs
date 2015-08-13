@@ -16,7 +16,7 @@ namespace cCont4
         private static DateTime _lastUpdated;
 
         static void Main(string[] args)
-        {
+        {//second new comment
             _customer = new Customer();
             _customer.PropertyChanging += new PropertyChangingEventHandler(PropertyChanging);
             _customer.PropertyChanged += new PropertyChangedEventHandler(PropertyChanged);

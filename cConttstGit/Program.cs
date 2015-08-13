@@ -17,6 +17,7 @@ namespace cCont4
 
         static void Main(string[] args)
         {//second new comment
+            //third new comment
             _customer = new Customer();
             _customer.PropertyChanging += new PropertyChangingEventHandler(PropertyChanging);
             _customer.PropertyChanged += new PropertyChangedEventHandler(PropertyChanged);
